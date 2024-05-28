@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Usuario\OneDrive\Escritorio\tercer_parcial_de_fulvio\memory_tex\simulation\qsim
+vmemory_tex
+Z1 !s100 njdLL`H201;:5?Df6M]^S0
+Z2 Ia6HKXDSn9P4G:mmH_1K9B0
+Z3 VCkmO4:HUzD=RN:n[<5A^L3
+Z4 dC:\Users\Usuario\OneDrive\Escritorio\tercer_parcial_de_fulvio\memory_tex\simulation\qsim
+Z5 w1716858977
+Z6 8memory_tex.vo
+Z7 Fmemory_tex.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|memory_tex.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1716858978.327000
+Z12 !s107 memory_tex.vo|
+!s101 -O0
+vmemory_tex_vlg_check_tst
+!i10b 1
+Z13 !s100 dJ310o_Gl^;7lzzSUMf?D1
+Z14 IdZAB@;=oVPa60VX9D5@az2
+Z15 VYBBG0;nb`cC=UCBC_Zgfz0
+R4
+Z16 w1716858975
+Z17 8Waveform.vwf.vt
+Z18 FWaveform.vwf.vt
+L0 69
+R8
+r1
+!s85 0
+31
+Z19 !s108 1716858979.009000
+Z20 !s107 Waveform.vwf.vt|
+Z21 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R10
+vmemory_tex_vlg_sample_tst
+!i10b 1
+Z22 !s100 [OM9]NQgNc@N1bD5Fha0@3
+Z23 Im>BL=zGC?:_FTiPNLZXz82
+Z24 VKU6_aHG1ilAZHWGKGFl:K2
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vmemory_tex_vlg_vec_tst
+!i10b 1
+!s100 1jTZzQn[aMX:oJhD5C<4J2
+InIcO6[10h0j:kgPQCd9MY3
+Z25 V`AH15z4FW`PQ5`e^ia^<b0
+R4
+R16
+R17
+R18
+Z26 L0 673
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

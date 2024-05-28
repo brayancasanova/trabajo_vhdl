@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Usuario\OneDrive\Escritorio\tercer_parcial_de_fulvio\rom_sincrona\simulation\qsim
+vrom_128x8_sync
+Z1 !s100 E319Gi3K5>B9Rm87F@@zX2
+Z2 I?VaTS<KoRM0`eUW1LLK=O2
+Z3 VKZM?f8S8Zaz6d5h;_`;W73
+Z4 dC:\Users\Usuario\OneDrive\Escritorio\tercer_parcial_de_fulvio\rom_sincrona\simulation\qsim
+Z5 w1716424143
+Z6 8rom_128x8_sync.vo
+Z7 From_128x8_sync.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|rom_128x8_sync.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1716424146.254000
+Z12 !s107 rom_128x8_sync.vo|
+!s101 -O0
+vrom_128x8_sync_vlg_check_tst
+!i10b 1
+!s100 fSRQSg>jQAY2RU@^UgT>30
+I;jhfXWnY762X?_d3RT1b11
+Z13 VD3?^fd0iAe76XCh_aZY1Z0
+R4
+Z14 w1716424141
+Z15 8Waveform1.vwf.vt
+Z16 FWaveform1.vwf.vt
+L0 59
+R8
+r1
+!s85 0
+31
+Z17 !s108 1716424146.365000
+Z18 !s107 Waveform1.vwf.vt|
+Z19 !s90 -work|work|Waveform1.vwf.vt|
+!s101 -O0
+R10
+vrom_128x8_sync_vlg_sample_tst
+!i10b 1
+!s100 9NgCiRK;`QcVmMaVP3T781
+I^GM6[=MObSl?69A0A>LO@0
+Z20 VmKnMAjAVX<Bde@fDKWTND2
+R4
+R14
+R15
+R16
+L0 29
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R10
+vrom_128x8_sync_vlg_vec_tst
+!i10b 1
+!s100 kndiHm@?cgPgQ416QLPS83
+IldliXENUUjKODJ3F?FmFO3
+Z21 Vm6>DbgQdHQG3g>XJVQzNW2
+R4
+R14
+R15
+R16
+Z22 L0 279
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R10

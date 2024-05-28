@@ -1,0 +1,701 @@
+$comment
+	File created using the following command:
+		vcd file output_ports.msim.vcd -direction
+$end
+$date
+	Thu May 23 10:28:20 2024
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module output_ports_vlg_vec_tst $end
+$var reg 8 ! address [7:0] $end
+$var reg 1 " clock $end
+$var reg 8 # data_in [7:0] $end
+$var reg 1 $ reset $end
+$var reg 1 % writee $end
+$var wire 1 & port_out_00 [7] $end
+$var wire 1 ' port_out_00 [6] $end
+$var wire 1 ( port_out_00 [5] $end
+$var wire 1 ) port_out_00 [4] $end
+$var wire 1 * port_out_00 [3] $end
+$var wire 1 + port_out_00 [2] $end
+$var wire 1 , port_out_00 [1] $end
+$var wire 1 - port_out_00 [0] $end
+$var wire 1 . port_out_01 [7] $end
+$var wire 1 / port_out_01 [6] $end
+$var wire 1 0 port_out_01 [5] $end
+$var wire 1 1 port_out_01 [4] $end
+$var wire 1 2 port_out_01 [3] $end
+$var wire 1 3 port_out_01 [2] $end
+$var wire 1 4 port_out_01 [1] $end
+$var wire 1 5 port_out_01 [0] $end
+$var wire 1 6 sampler $end
+$scope module i1 $end
+$var wire 1 7 gnd $end
+$var wire 1 8 vcc $end
+$var wire 1 9 unknown $end
+$var tri1 1 : devclrn $end
+$var tri1 1 ; devpor $end
+$var tri1 1 < devoe $end
+$var wire 1 = port_out_00[0]~output_o $end
+$var wire 1 > port_out_00[1]~output_o $end
+$var wire 1 ? port_out_00[2]~output_o $end
+$var wire 1 @ port_out_00[3]~output_o $end
+$var wire 1 A port_out_00[4]~output_o $end
+$var wire 1 B port_out_00[5]~output_o $end
+$var wire 1 C port_out_00[6]~output_o $end
+$var wire 1 D port_out_00[7]~output_o $end
+$var wire 1 E port_out_01[0]~output_o $end
+$var wire 1 F port_out_01[1]~output_o $end
+$var wire 1 G port_out_01[2]~output_o $end
+$var wire 1 H port_out_01[3]~output_o $end
+$var wire 1 I port_out_01[4]~output_o $end
+$var wire 1 J port_out_01[5]~output_o $end
+$var wire 1 K port_out_01[6]~output_o $end
+$var wire 1 L port_out_01[7]~output_o $end
+$var wire 1 M clock~input_o $end
+$var wire 1 N clock~inputclkctrl_outclk $end
+$var wire 1 O data_in[0]~input_o $end
+$var wire 1 P reset~input_o $end
+$var wire 1 Q reset~inputclkctrl_outclk $end
+$var wire 1 R address[7]~input_o $end
+$var wire 1 S address[6]~input_o $end
+$var wire 1 T address[4]~input_o $end
+$var wire 1 U address[5]~input_o $end
+$var wire 1 V U4~1_combout $end
+$var wire 1 W address[0]~input_o $end
+$var wire 1 X address[2]~input_o $end
+$var wire 1 Y address[1]~input_o $end
+$var wire 1 Z writee~input_o $end
+$var wire 1 [ address[3]~input_o $end
+$var wire 1 \ U4~0_combout $end
+$var wire 1 ] U3~0_combout $end
+$var wire 1 ^ port_out_00[0]~reg0_q $end
+$var wire 1 _ data_in[1]~input_o $end
+$var wire 1 ` port_out_00[1]~reg0feeder_combout $end
+$var wire 1 a port_out_00[1]~reg0_q $end
+$var wire 1 b data_in[2]~input_o $end
+$var wire 1 c port_out_00[2]~reg0feeder_combout $end
+$var wire 1 d port_out_00[2]~reg0_q $end
+$var wire 1 e data_in[3]~input_o $end
+$var wire 1 f port_out_00[3]~reg0_q $end
+$var wire 1 g data_in[4]~input_o $end
+$var wire 1 h port_out_00[4]~reg0_q $end
+$var wire 1 i data_in[5]~input_o $end
+$var wire 1 j port_out_00[5]~reg0feeder_combout $end
+$var wire 1 k port_out_00[5]~reg0_q $end
+$var wire 1 l data_in[6]~input_o $end
+$var wire 1 m port_out_00[6]~reg0feeder_combout $end
+$var wire 1 n port_out_00[6]~reg0_q $end
+$var wire 1 o data_in[7]~input_o $end
+$var wire 1 p port_out_00[7]~reg0_q $end
+$var wire 1 q U4~2_combout $end
+$var wire 1 r port_out_01[0]~reg0_q $end
+$var wire 1 s port_out_01[1]~reg0feeder_combout $end
+$var wire 1 t port_out_01[1]~reg0_q $end
+$var wire 1 u port_out_01[2]~reg0feeder_combout $end
+$var wire 1 v port_out_01[2]~reg0_q $end
+$var wire 1 w port_out_01[3]~reg0_q $end
+$var wire 1 x port_out_01[4]~reg0_q $end
+$var wire 1 y port_out_01[5]~reg0feeder_combout $end
+$var wire 1 z port_out_01[5]~reg0_q $end
+$var wire 1 { port_out_01[6]~reg0feeder_combout $end
+$var wire 1 | port_out_01[6]~reg0_q $end
+$var wire 1 } port_out_01[7]~reg0_q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11100000 !
+0"
+b1011 #
+1$
+1%
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+05
+04
+03
+02
+01
+00
+0/
+0.
+x6
+07
+18
+x9
+1:
+1;
+1<
+0=
+0>
+0?
+0@
+0A
+0B
+0C
+0D
+0E
+0F
+0G
+0H
+0I
+0J
+0K
+0L
+0M
+0N
+1O
+1P
+1Q
+1R
+1S
+0T
+1U
+1V
+0W
+0X
+0Y
+1Z
+0[
+1\
+1]
+0^
+1_
+1`
+0a
+0b
+0c
+0d
+1e
+0f
+0g
+0h
+0i
+0j
+0k
+0l
+0m
+0n
+0o
+0p
+0q
+0r
+1s
+0t
+0u
+0v
+0w
+0x
+0y
+0z
+0{
+0|
+0}
+$end
+#15000
+1"
+1M
+1N
+06
+1f
+1a
+1^
+1@
+1>
+1=
+1*
+1,
+1-
+#30000
+b11100001 !
+0"
+1W
+0M
+0N
+16
+1q
+0]
+#45000
+1"
+1M
+1N
+06
+1w
+1t
+1r
+1H
+1F
+1E
+12
+14
+15
+#60000
+b11100011 !
+b11100010 !
+0"
+0W
+1Y
+0M
+0N
+16
+0q
+1]
+0\
+0]
+#75000
+1"
+1M
+1N
+06
+#90000
+b11100011 !
+0"
+1W
+0M
+0N
+16
+#105000
+1"
+1M
+1N
+06
+#120000
+b11100111 !
+b11100101 !
+b11100100 !
+0"
+0W
+0Y
+1X
+0M
+0N
+16
+#135000
+1"
+1M
+1N
+06
+#150000
+b11100101 !
+0"
+1W
+0M
+0N
+16
+#165000
+1"
+1M
+1N
+06
+#180000
+b11100111 !
+b11100110 !
+0"
+0W
+1Y
+0M
+0N
+16
+#195000
+1"
+1M
+1N
+06
+#210000
+b11100111 !
+0"
+1W
+0M
+0N
+16
+#225000
+1"
+1M
+1N
+06
+#240000
+b11101111 !
+b11101011 !
+b11101001 !
+b11101000 !
+0"
+0W
+0Y
+0X
+1[
+0M
+0N
+16
+#255000
+1"
+1M
+1N
+06
+#270000
+b11101001 !
+0"
+1W
+0M
+0N
+16
+#285000
+1"
+1M
+1N
+06
+#300000
+b11101011 !
+b11101010 !
+0"
+0W
+1Y
+0M
+0N
+16
+#315000
+1"
+1M
+1N
+06
+#330000
+b11101011 !
+0"
+1W
+0M
+0N
+16
+#345000
+1"
+1M
+1N
+06
+#360000
+b11101111 !
+b11101101 !
+b11101100 !
+0"
+0W
+0Y
+1X
+0M
+0N
+16
+#375000
+1"
+1M
+1N
+06
+#390000
+b11101101 !
+0"
+1W
+0M
+0N
+16
+#405000
+1"
+1M
+1N
+06
+#420000
+b11101111 !
+b11101110 !
+0"
+0W
+1Y
+0M
+0N
+16
+#435000
+1"
+1M
+1N
+06
+#450000
+b11101111 !
+0"
+1W
+0M
+0N
+16
+#465000
+1"
+1M
+1N
+06
+#480000
+b11111111 !
+b11110111 !
+b11110011 !
+b11110001 !
+b11110000 !
+0"
+0W
+0Y
+0X
+0[
+1T
+0M
+0N
+16
+1\
+0V
+#495000
+1"
+1M
+1N
+06
+#500000
+0%
+0Z
+16
+0\
+#510000
+b11110001 !
+0"
+1W
+0M
+0N
+06
+#525000
+1"
+1M
+1N
+16
+#540000
+b11110011 !
+b11110010 !
+0"
+0W
+1Y
+0M
+0N
+06
+#555000
+1"
+1M
+1N
+16
+#570000
+b11110011 !
+0"
+1W
+0M
+0N
+06
+#585000
+1"
+1M
+1N
+16
+#600000
+b11110111 !
+b11110101 !
+b11110100 !
+0"
+0W
+0Y
+1X
+0M
+0N
+06
+#615000
+1"
+1M
+1N
+16
+#630000
+b11110101 !
+0"
+1W
+0M
+0N
+06
+#645000
+1"
+1M
+1N
+16
+#660000
+b11110111 !
+b11110110 !
+0"
+0W
+1Y
+0M
+0N
+06
+#675000
+1"
+1M
+1N
+16
+#690000
+b11110111 !
+0"
+1W
+0M
+0N
+06
+#705000
+1"
+1M
+1N
+16
+#720000
+b11111111 !
+b11111011 !
+b11111001 !
+b11111000 !
+0"
+0W
+0Y
+0X
+1[
+0M
+0N
+06
+#735000
+1"
+1M
+1N
+16
+#750000
+b11111001 !
+0"
+1W
+0M
+0N
+06
+#765000
+1"
+1M
+1N
+16
+#780000
+b11111011 !
+b11111010 !
+0"
+0W
+1Y
+0M
+0N
+06
+#795000
+1"
+1M
+1N
+16
+#810000
+b11111011 !
+0"
+1W
+0M
+0N
+06
+#825000
+1"
+1M
+1N
+16
+#840000
+b11111111 !
+b11111101 !
+b11111100 !
+0"
+0W
+0Y
+1X
+0M
+0N
+06
+#855000
+1"
+1M
+1N
+16
+#870000
+b11111101 !
+0"
+1W
+0M
+0N
+06
+#885000
+1"
+1M
+1N
+16
+#900000
+b11111111 !
+b11111110 !
+0"
+0W
+1Y
+0M
+0N
+06
+#915000
+1"
+1M
+1N
+16
+#930000
+b11111111 !
+0"
+1W
+0M
+0N
+06
+#945000
+1"
+1M
+1N
+16
+#960000
+b1111111 !
+b111111 !
+b11111 !
+b1111 !
+b111 !
+b11 !
+b1 !
+b0 !
+0"
+0W
+0Y
+0X
+0[
+0T
+0U
+0S
+0R
+0M
+0N
+06
+#975000
+1"
+1M
+1N
+16
+#990000
+b1 !
+0"
+1W
+0M
+0N
+06
+#1000000
